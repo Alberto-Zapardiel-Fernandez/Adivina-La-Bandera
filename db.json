@@ -1,0 +1,298 @@
+{
+  "paises": [
+    {
+      "id": 1,
+      "nombre": "Albania",
+      "src": "./assets/BANDERAS/Albania.png",
+      "level": 3
+    },
+    {
+      "id": 2,
+      "nombre": "Andorra",
+      "src": "./assets/BANDERAS/Andorra.png",
+      "level": 3
+    },
+    {
+      "id": 3,
+      "nombre": "Armenia",
+      "src": "./assets/BANDERAS/Armenia.png",
+      "level": 3
+    },
+    {
+      "id": 4,
+      "nombre": "Austria",
+      "src": "./assets/BANDERAS/Austria.png ",
+      "level": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Azerbaijan",
+      "src": "./assets/BANDERAS/Azerbaijan.png",
+      "level": 3
+    },
+    {
+      "id": 6,
+      "nombre": "Bielorrusia",
+      "src": "./assets/BANDERAS/Belarus.png",
+      "level": 3
+    },
+    {
+      "id": 7,
+      "nombre": "Bélgica",
+      "src": "./assets/BANDERAS/Belgium.png",
+      "level": 2
+    },
+    {
+      "id": 8,
+      "nombre": "Bosnia",
+      "src": "./assets/BANDERAS/bosnian.png",
+      "level": 2
+    },
+    {
+      "id": 9,
+      "nombre": "Bulgaria",
+      "src": "./assets/BANDERAS/Bulgaria.png",
+      "level": 2
+    },
+    {
+      "id": 10,
+      "nombre": "Croacia",
+      "src": "./assets/BANDERAS/Croatian.png",
+      "level": 1
+    },
+    {
+      "id": 11,
+      "nombre": "Chipre",
+      "src": "./assets/BANDERAS/Cyprus.png",
+      "level": 2
+    },
+    {
+      "id": 12,
+      "nombre": "República Checa",
+      "src": "./assets/BANDERAS/Czech-republic.png",
+      "level": 2
+    },
+    {
+      "id": 13,
+      "nombre": "Estonia",
+      "src": "./assets/BANDERAS/Estonia.png",
+      "level": 2
+    },
+    {
+      "id": 14,
+      "nombre": "Finlandia",
+      "src": "./assets/BANDERAS/Finland.png",
+      "level": 1
+    },
+    {
+      "id": 15,
+      "nombre": "Francia",
+      "src": "./assets/BANDERAS/France.png",
+      "level": 1
+    },
+    {
+      "id": 16,
+      "nombre": "Georgia",
+      "src": "./assets/BANDERAS/Georgia.png",
+      "level": 3
+    },
+    {
+      "id": 17,
+      "nombre": "Alemania",
+      "src": "./assets/BANDERAS/Germany.png",
+      "level": 1
+    },
+    {
+      "id": 18,
+      "nombre": "Grecia",
+      "src": "./assets/BANDERAS/Greece.png",
+      "level": 1
+    },
+    {
+      "id": 19,
+      "nombre": "Hungría",
+      "src": "./assets/BANDERAS/Hungary.png",
+      "level": 2
+    },
+    {
+      "id": 20,
+      "nombre": "Islandia",
+      "src": "./assets/BANDERAS/Iceland.png",
+      "level": 2
+    },
+    {
+      "id": 21,
+      "nombre": "Irlanda",
+      "src": "./assets/BANDERAS/Ireland.png",
+      "level": 2
+    },
+    {
+      "id": 22,
+      "nombre": "Italia",
+      "src": "./assets/BANDERAS/Italy.png",
+      "level": 1
+    },
+    {
+      "id": 23,
+      "nombre": "Kosovo",
+      "src": "./assets/BANDERAS/Kosovo.png",
+      "level": 3
+    },
+    {
+      "id": 24,
+      "nombre": "Letonia",
+      "src": "./assets/BANDERAS/Latvia.png",
+      "level": 3
+    },
+    {
+      "id": 25,
+      "nombre": "Liechtenstein",
+      "src": "./assets/BANDERAS/Liechtenstein.png",
+      "level": 3
+    },
+    {
+      "id": 26,
+      "nombre": "Lituania",
+      "src": "./assets/BANDERAS/Lithuania.png",
+      "level": 3
+    },
+    {
+      "id": 27,
+      "nombre": "Luxemburgo",
+      "src": "./assets/BANDERAS/Luxembourg.png",
+      "level": 2
+    },
+    {
+      "id": 28,
+      "nombre": "Macedonia",
+      "src": "./assets/BANDERAS/Macedonia.png",
+      "level": 2
+    },
+    {
+      "id": 29,
+      "nombre": "Malta",
+      "src": "./assets/BANDERAS/Malta.png",
+      "level": 2
+    },
+    {
+      "id": 30,
+      "nombre": "Moldavia",
+      "src": "./assets/BANDERAS/Moldova.png",
+      "level": 3
+    },
+    {
+      "id": 31,
+      "nombre": "Mónaco",
+      "src": "./assets/BANDERAS/Monaco.png",
+      "level": 2
+    },
+    {
+      "id": 32,
+      "nombre": "Montenegro",
+      "src": "./assets/BANDERAS/Montenegro.png",
+      "level": 3
+    },
+    {
+      "id": 33,
+      "nombre": "Países Bajos",
+      "src": "./assets/BANDERAS/Netherlands.png",
+      "level": 1
+    },
+    {
+      "id": 34,
+      "nombre": "Noruega",
+      "src": "./assets/BANDERAS/Norway.png",
+      "level": 1
+    },
+    {
+      "id": 35,
+      "nombre": "Polonia",
+      "src": "./assets/BANDERAS/Poland.png",
+      "level": 2
+    },
+    {
+      "id": 36,
+      "nombre": "Portugal",
+      "src": "./assets/BANDERAS/Portugal.png",
+      "level": 1
+    },
+    {
+      "id": 37,
+      "nombre": "Rumania",
+      "src": "./assets/BANDERAS/Romania.png",
+      "level": 1
+    },
+    {
+      "id": 38,
+      "nombre": "Rusia",
+      "src": "./assets/BANDERAS/Russia.png",
+      "level": 1
+    },
+    {
+      "id": 39,
+      "nombre": "San Marino",
+      "src": "./assets/BANDERAS/San-marino.png",
+      "level": 3
+    },
+    {
+      "id": 40,
+      "nombre": "Serbia",
+      "src": "./assets/BANDERAS/Serbia.png",
+      "level": 2
+    },
+    {
+      "id": 41,
+      "nombre": "Eslovaquia",
+      "src": "./assets/BANDERAS/Slovakia.png",
+      "level": 2
+    },
+    {
+      "id": 42,
+      "nombre": "Eslovenia",
+      "src": "./assets/BANDERAS/Slovenia.png",
+      "level": 2
+    },
+    {
+      "id": 43,
+      "nombre": "España",
+      "src": "./assets/BANDERAS/Spain.png",
+      "level": 1
+    },
+    {
+      "id": 44,
+      "nombre": "Suecia",
+      "src": "./assets/BANDERAS/Sweden.png",
+      "level": 2
+    },
+    {
+      "id": 45,
+      "nombre": "Suiza",
+      "src": "./assets/BANDERAS/Switzerland.png",
+      "level": 1
+    },
+    {
+      "id": 46,
+      "nombre": "Turquía",
+      "src": "./assets/BANDERAS/Turkey.png",
+      "level": 1
+    },
+    {
+      "id": 47,
+      "nombre": "Ucrania",
+      "src": "./assets/BANDERAS/Ukraine.png",
+      "level": 1
+    },
+    {
+      "id": 48,
+      "nombre": "Reino Unido",
+      "src": "./assets/BANDERAS/United-kingdom.png",
+      "level": 1
+    },
+    {
+      "id": 49,
+      "nombre": "Ciudad del Vaticano",
+      "src": "./assets/BANDERAS/Vatican-city.png",
+      "level": 3
+    }
+  ]
+}
