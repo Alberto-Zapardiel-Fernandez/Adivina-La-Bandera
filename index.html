@@ -16,7 +16,6 @@
   <p class="title">Adivina la bandera</p>
   <section id="level" class="level">
     <select name="level" id="levelSelected">
-      <option value="nivel">Selecciona un nivel</option>
       <option value="1">Nivel 1</option>
       <option value="2">Nivel 2</option>
       <option value="3">Nivel 3</option>
@@ -28,18 +27,18 @@
     <h2 id="level-selected">Selecciona un nivel </h2>
 
     <section class="game" id="game">
-      <img alt="Flag" src="assets/BANDERAS/Spain.png" width="200px" id="imgFlag">
+      <img src="./assets/BANDERAS/Spain.png" width="200px" id="imgFlag">
       <br>
       <label for="flag">Opciones:</label>
       <br>
-      <select id="flag" name="flag">
-        <option value="nivel 1">Selecciona una opción</option>
+      <select id="answer" name="answer">
+        <option value="Empezamos">EMPEZAMOS</option>
+
       </select>
 
     </section>
   </section>
   <section class="scoreboard" id="scoreboard">
-    <button id="btn-select-answer" class="btn-select-answer">Enviar respuesta</button>
     <br>
     <p id="aciertos">Aciertos:</p>
     <p class="fallos" id="fallos">Fallos:</p>
