@@ -9,7 +9,8 @@ const $btnSelectLevel = document.getElementById('btnSelectLevel'),
   $aciertos = document.getElementById('aciertos'),
   $fallos = document.getElementById('fallos'),
   $timerText = document.getElementById('timer'),
-  $fragment = document.createDocumentFragment();
+  $fragment = document.createDocumentFragment(),
+  $modal = document.getElementById('myModal');
 $fragment.innerHTML = '';
 
 let timer = setInterval(() => {}, 10);
@@ -42,17 +43,24 @@ $btnSelectLevel.addEventListener('click', () => {
   /* Seleccionamos el valor y si es distinto de un texto que ponga nivel ajustamos el nivel */
   const levelSelected = document.getElementById('levelSelected').value;
   $timerText.textContent = 'EMPEZAMOS!!!';
+  $modal.style.color = 'whitesmoke';
+  $modal.textContent = 'Opciones:';
   startGame(parseInt(levelSelected));
 });
 /* Al cambiar el valor  del select comprobamos que los valores son los mismos */
+$select.addEventListener('focus', () => ($modal.textContent = ''));
 $select.addEventListener('change', () => {
   /* Damos acierto o fallo según sean las respuestas */
   if ($select.value === $imgFlag.alt) {
     aciertos++;
     $aciertos.textContent = `Aciertos: ${aciertos}`;
+    $modal.style.color = 'green';
+    $modal.textContent = 'ACIERTO!';
   } else {
     fallos++;
     $fallos.textContent = `Fallos: ${fallos}`;
+    $modal.style.color = 'var(--main-red)';
+    $modal.textContent = 'FALLO!';
   }
   $select.disabled = true;
 });
@@ -126,6 +134,8 @@ const startGame = (level) => {
         alert(
           `Fin del juego! \nResultado\n${aciertos} aciertos\n${fallos} fallos`
         );
+        $modal.style.color = 'whitesmoke';
+        $modal.textContent = 'Opciones:';
         aciertos = 0;
         fallos = 0;
       } else {
@@ -169,6 +179,8 @@ function countinueToNextLevel(level, counter, time, timer) {
     : alert(
         `Para seguir jugando eligue un nivel y comienza de nuevo\nResultado\n${aciertos} aciertos\n${fallos} fallos`
       );
+  $modal.style.color = 'whitesmoke';
+  $modal.textContent = 'Opciones:';
   aciertos = 0;
   fallos = 0;
   clearInterval(timer);
